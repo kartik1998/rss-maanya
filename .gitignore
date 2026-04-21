@@ -1,0 +1,16 @@
+# Local secrets & personal config
+config.json
+
+# Generated output
+dashboard.html
+digest.log
+
+# Python cruft
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# macOS
+.DS_Store

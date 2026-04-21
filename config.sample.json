@@ -1,0 +1,66 @@
+{
+  "name": "YourName",
+  "phone_number": "+91XXXXXXXXXX",
+  "groq_api_key": "",
+  "timezone": "Asia/Kolkata",
+  "model": "llama-3.3-70b-versatile",
+  "max_articles": 10,
+
+  "delivery": {
+    "send_imessage": true,
+    "send_email": false
+  },
+
+  "smtp": {
+    "host":     "smtp.gmail.com",
+    "port":     465,
+    "user":     "",
+    "password": "",
+    "from":     "",
+    "to":       ""
+  },
+
+  "rss_feeds": {
+    "World Affairs": [
+      "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "https://www.theguardian.com/world/rss",
+      "https://feeds.npr.org/1004/rss.xml",
+      "https://rss.nytimes.com/services/xml/rss/nyt/World.xml"
+    ],
+    "War & Conflicts": [
+      "https://www.aljazeera.com/xml/rss/all.xml",
+      "https://feeds.bbci.co.uk/news/world/rss.xml",
+      "https://www.theguardian.com/world/ukraine/rss",
+      "https://feeds.skynews.com/feeds/rss/world.xml"
+    ],
+    "India News": [
+      "https://feeds.feedburner.com/ndtvnews-top-stories",
+      "https://www.thehindu.com/news/national/feeder/default.rss",
+      "https://timesofindia.indiatimes.com/rssfeedstopstories.cms",
+      "https://economictimes.indiatimes.com/news/rss.cms",
+      "https://indianexpress.com/feed/"
+    ],
+    "Fashion": [
+      "https://wwd.com/feed/",
+      "https://fashionista.com/feed",
+      "https://www.vogue.com/feed/rss",
+      "https://hypebae.com/feed",
+      "https://www.businessoffashion.com/feed"
+    ],
+    "Marketing Updates": [
+      "https://www.marketingweek.com/feed/",
+      "https://adage.com/rss",
+      "https://www.adweek.com/feed/",
+      "https://digiday.com/feed/",
+      "https://www.thedrum.com/rss"
+    ]
+  },
+
+  "category_prompts": {
+    "World Affairs":     "You're a sharp, concise analyst briefing a switched-on 25-year-old. In 4 punchy sentences, tell them what matters in today's world headlines and *why* it matters. No throat-clearing, no passive voice.",
+    "War & Conflicts":   "You're a conflict analyst writing a quick-read for informed adults. Summarise the key developments in 4 clear, factual sentences. Name the actors, the stakes, and any shift in momentum.",
+    "India News":        "You're writing for a savvy young Indian professional. 4 direct sentences covering the most consequential India headlines today. Political, economic, or social — whatever is moving the needle.",
+    "Fashion":           "You are a senior fashion editor texting an industry peer. Peer-to-peer tone — opinionated, a little witty, industry-native language. 4 sentences on what's happening in fashion right now.",
+    "Marketing Updates": "You're a senior strategist briefing the team on what marketers need to know today. 4 sharp sentences: platform shifts, campaign news, data points, brand moves. No fluff."
+  }
+}
